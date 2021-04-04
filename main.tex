@@ -1,11 +1,13 @@
 \documentclass[a4paper]{article}
 \usepackage{kotex}
 \usepackage{better_poster}
+\newcommand{\latex}{\LaTeX\xspace}
+\newcommand{\tex}{\TeX\xspace}
 
 % ---- fill in from here
 
 % authors
-\title{A Latex Implementation of Mike Morrison's Better Poster}
+\title{전문성 계발을 위한 워크샵을 다음과 같이 개최하오니 관심 있는 분들의 많은 참여를 바랍니다.}
 \author{Lana Sinapayen, Someone Else}
 
 % type of poster: [exp]erimental results, [methods], [theory]
@@ -14,68 +16,78 @@
 
 \begin{document}
 
+	
 % main point of your study
 \makefinding{
-\textbf{LaTeX Workshop} \\
-경기과학고등학교}
-
-% \makemain{
-% }{
-
-% }
-
+\textbf{The 2nd } 
+\textbf{\LaTeX } 
+\textbf{Workshop}\\
+{\huge {for teachers in Gyeonggi Science Highschool for the Gifted.}}
+}
 
 % the main text of your poster goes here
-\makemain{
-    % you can have 1 or 2 columns
-    \raggedcolumns
-    \begin{multicols}{2}
-        \section{Intro}
-        \begin{compactitem}
-            \item Just give some context
-            \item No need to cite papers
-            \item because people can download your paper
-        \end{compactitem}
-        
-        \section{Methods}
-        \begin{compactitem}
-            \item N = 30
-            \item Some math: $w_1 = \epsilon$
-            \item Collected this
-            \item Tested with X statistical test
-        \end{compactitem}
-        
-    % this determines where your columns will be separated
-    \columnbreak
 
-        \section{Results}
-        
-        \includegraphics[width=\linewidth]{icons8-ecg-96.png}
-        \begin{compactitem}
-            \item Your
-            \item Talking
-            \item Points
-        \end{compactitem}
-    
-    \end{multicols}
+\makemain{
+    \section{대상 및 강의 내용}
+		\begin{compactitem}
+			\item 경기과학고등학교 교직원 중 (학생은 참석 불가함.)\\
+				\latex을 이용하여 수업 자료를 만들거나
+				학생들의 자율연구, 졸업논문 지도시 \latex을 활용하고 싶으신 분을 대상으로,
+			\item \href{http://bfstudy.net/}{bfstudy.net} 회원 가입 및  \href{https://moodle.bfstudy.net/course/view.php?id=79}{경기과학고 \tex 사용자 협회 무들 강좌}를 자기주도적으로 학습할 수 있도록 도와 드립니다.
+		\end{compactitem}
+
+    \section{일시 및 장소}
+		\begin{compactitem}
+	    	\item 2021년 4월 0일 19:00 - 21:30
+			\item 과학영재연구센터(SRC) 629호
+		\end{compactitem}
+
+		\begin{tikzpicture}
+			\node[anchor=south west] (image) at (0,0) {\includegraphics[width=9cm]{167582351_10223958451496533_4019638851113294173_n}};
+			\draw[latex-, very thick,green] (2.5,3.25) -- ++(-0.5,0) node[left,black,fill=yellow]{\small Here is the SRC629!!};
+
+		\end{tikzpicture}    
+	  
+	\section{참여 방법 및 준비물}
+		\begin{compactitem}
+       		\item 아래 QR 코드 스캔 또는 \href{https://forms.gle/9jCNwDB5NPxRsF2t8}{여기를 클릭}하여 신청해 주세요. 
+       		(참가 인원 파악을 위해 꼭 신청해 주시기 바랍니다.)
+    		\item 개인 랩탑 지참
+    		(가급적 \latex\을 설치해 오시기 바랍니다.)
+    		\item \href{http://bfstudy.net/}{bfstudy.net} 회원 가입 및  \href{https://moodle.bfstudy.net/course/view.php?id=79}{경기과학고 \tex 사용자 협회 무들 강좌} 예습 권장	
+      	\end{compactitem}
 }
 % If you have extra figures or data to show
-\makeextracolumn{
-    Add your things here
-    
-    \includegraphics[width=0.5\linewidth]{icons8-stocks-80.png}\includegraphics[width=0.5\linewidth]{icons8-stocks-80.png}
-    
-    \begin{itemize}
-    \setlength\itemsep{0.1em}
-        \item Stuff you don't want to forget
-        \item But is not essential
-    \end{itemize}
-}
+\makeextracolumn{}
 
 % footer
 % generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png
 % default: barcode on the left
-\makefooter{images/uni_logo.png}{images/qr-code.png}
+%\makefooter{MARK-2013.pdf}{images/qr-code.png}
+
+\vspace*{\fill}
+\noindent\makebox[\linewidth][c]{%
+	\colorbox{\postertype}{%
+		\parbox[c][0.14\paperheight][c]{\paperwidth}{%
+			\hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
+			\begin{minipage}[c][0.12\paperheight][c]{0.20\textwidth}
+				\includegraphics[clip, trim=5.0cm 8.2cm 5.2cm 8.2cm, width=1.00\textwidth, right]{MARK-2013.pdf}
+								
+			\end{minipage}
+			\begin{minipage}[c][0.10\paperheight][c]{0.6\textwidth}
+				\textcolor{white}
+				{\huge{ \textbf{The first \& the best.}}}  
+
+			\end{minipage}
+			\hfill
+			\begin{minipage}[c][0.14\paperheight][c]{0.17\textwidth}
+				\href{https://forms.gle/9jCNwDB5NPxRsF2t8}{
+				\includegraphics[height=0.12\paperheight]{images/qr-code.png}}
+			\end{minipage}
+		}%
+	}%
+	}\par\medskip
+
 
 % replace with this like for barcode on the right
 %\makealtfooter{images/uni_logo.png}{images/qr-code.png}

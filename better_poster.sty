@@ -5,7 +5,6 @@
 \usepackage{anyfontsize}
 \usepackage[T1]{fontenc}
 \usepackage{framed}
-\usepackage{graphicx}
 \usepackage{hyphenat}
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
@@ -15,7 +14,11 @@
 \usepackage{paralist}
 \usepackage{sfmath}
 \usepackage{tikz}
-
+\usepackage{verbatim}
+\usepackage{hyperref,graphicx}
+\usetikzlibrary{arrows,shapes,backgrounds} 
+\usepackage{tikzpagenodes} 
+\hypersetup{pdfborder = 0 0 0}
 
 % set margins
 \newcommand\postermargin{1cm}
@@ -23,6 +26,7 @@
 
 % sans serif font
 \renewcommand{\familydefault}{\sfdefault}
+
 % sets page numbering off
 \pagenumbering{gobble}
 % images path
@@ -37,21 +41,21 @@
 \makeatletter
 \def\@maketitle{
   \vspace{0.5cm}
-    {\Huge \bf
+    {\Large \bf
         \begin{flushleft}
             \@title
         \end{flushleft}
     }\vspace{-0.5em}
-    {\large \@author}
+    %{\large \@author}
 }
 \makeatother
 
 % makes header
 \newcommand{\makefinding}[1]{
-    \vspace*{-1cm} % get rid of random white space
+    \vspace*{-0.8cm} % get rid of random white space
     \noindent\makebox[\linewidth][c]{%
       \colorbox{\postertype}{%
-        \parbox[t][0.3\paperheight][c]{\paperwidth}{%
+        \parbox[t][0.20\paperheight][c]{\paperwidth}{%
           \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
           \begin{minipage}{\textwidth}
           \textcolor{white}
@@ -61,59 +65,6 @@
             \end{center}
             }
           \end{minipage}%
-        }%
-      }%
-    }\par\medskip
-}
-
-% makes footer
-\newcommand{\makefooter}[2]{
-    \vspace*{\fill}
-    \noindent\makebox[\linewidth][c]{%
-      \colorbox{\postertype}{%
-        \parbox[c][0.14\paperheight][c]{\paperwidth}{%
-          \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
-          \begin{minipage}[c][0.14\paperheight][c]{0.15\textwidth}
-                \includegraphics[height=0.11\paperheight, left]{#2}
-          \end{minipage}
-          \begin{minipage}[c][0.14\paperheight][c]{0.3\textwidth}
-              \textcolor{white}
-                {\large{
-                   $\leftarrow$ Download the paper }
-                }  
-          \end{minipage}
-          \hfill
-          \begin{minipage}[c][0.14\paperheight][c]{0.2\textwidth}
-            \includegraphics[height=0.11\paperheight, left]{#1}
-          \end{minipage}
-        }%
-      }%
-    }\par\medskip
-}
-
-% alternative footer
-\newcommand{\makealtfooter}[2]{
-    \vspace*{\fill}
-    \noindent\makebox[\linewidth][c]{%
-      \colorbox{\postertype}{%
-        \parbox[c][0.14\paperheight][c]{\paperwidth}{%
-          \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
-          \begin{minipage}[c][0.14\paperheight][c]{0.3\textwidth}
-            % your logo here
-            \includegraphics[height=0.11\paperheight, left]{#1}
-            \end{minipage}
-          \hfill
-          \begin{minipage}[c][0.14\paperheight][c]{0.4\textwidth}
-            \begin{flushright}
-                \textcolor{white}
-                {\large{
-                    Download the paper $\rightarrow$}
-                }
-                \end{flushright}
-          \end{minipage}
-          \begin{minipage}[c][0.14\paperheight][c]{0.2\textwidth}
-                \includegraphics[height=0.11\paperheight, left]{#2}
-          \end{minipage}
         }%
       }%
     }\par\medskip
@@ -132,19 +83,32 @@
     }
 }
 
-
 % makes additional figures column
 \newcommand{\makeextracolumn}[1]{
-    \hfill\begin{tikzpicture}[overlay]
-    \draw[\postertype, very thick] (0,0.01\paperheight) -- (0,-0.56\paperheight);
-    \end{tikzpicture}
-    \hfill
-    \parbox[t][0.55\paperheight][t]{0.3\linewidth}{
-        \section*{Extra figures}
-        
-        {\scriptsize
-        #1
-        }
-    }
+	\hfill\begin{tikzpicture}[overlay]
+	\draw[\postertype, very thick] (0,0.01\paperheight) -- (0,-0.63\paperheight);
+	\end{tikzpicture}
+	\hfill
+	\parbox[t][0.60\paperheight][t]{0.3\linewidth}{
+		\section*{Related...}
+		%#1
+		{
+			\vspace*{0.3cm}
+			\href{http://latex.gs.hs.kr/}
+			{\includegraphics[width=1.0\linewidth]{gshs-tex-society-logo.png}}
+			\vspace*{0.25cm}
+			\href{https://github.com/gshslatexintro}
+			{\includegraphics[width=1.0\linewidth]{latexintro_screenshot_00001.png}}
+			\vspace*{0.25cm}
+			\href{https://moodle.bfstudy.net/course/view.php?id=79}
+			{\includegraphics[width=1.0\linewidth]{bfstudy_screenshot_00001.png}
+			\vspace*{0.25cm}
+			\href{https://www.gs.hs.kr}
+			{\includegraphics[width=1.0\linewidth]{logo_name.jpg}}
+			\vspace*{0.25cm}
+			\includegraphics[width=1.0\linewidth]{164802182_10223958450736514_1499828934660729182_n.jpg}
+		}
+	}
+}
 }
 
