@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.1.28)  4 APR 2021 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.1.28)  4 APR 2021 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1241,11 +1241,14 @@ File: ./images/bfstudy_screenshot_00001.png Graphic file (type png)
 Package pdftex.def Info: ./images/bfstudy_screenshot_00001.png  used on input l
 ine 61.
 (pdftex.def)             Requested size: 162.18236pt x 112.45776pt.
-<./images/logo_name.jpg, id=33, 922.94812pt x 183.68625pt>
-File: ./images/logo_name.jpg Graphic file (type jpg)
-<use ./images/logo_name.jpg>
-Package pdftex.def Info: ./images/logo_name.jpg  used on input line 61.
-(pdftex.def)             Requested size: 162.18236pt x 32.2773pt.
+<./images/165254569_10223958472697063_3079378730120024648_n.jpg, id=33, 2055.68
+pt x 1155.31625pt>
+File: ./images/165254569_10223958472697063_3079378730120024648_n.jpg Graphic fi
+le (type jpg)
+<use ./images/165254569_10223958472697063_3079378730120024648_n.jpg>
+Package pdftex.def Info: ./images/165254569_10223958472697063_30793787301200246
+48_n.jpg  used on input line 61.
+(pdftex.def)             Requested size: 162.18236pt x 91.14029pt.
 <./images/164802182_10223958450736514_1499828934660729182_n.jpg, id=35, 602.25p
 t x 338.26375pt>
 File: ./images/164802182_10223958450736514_1499828934660729182_n.jpg Graphic fi
@@ -1254,40 +1257,41 @@ le (type jpg)
 Package pdftex.def Info: ./images/164802182_10223958450736514_14998289346607291
 82_n.jpg  used on input line 61.
 (pdftex.def)             Requested size: 162.18236pt x 91.08983pt.
-<./images/MARK-2013.pdf, id=36, 614.295pt x 794.97pt>
-File: ./images/MARK-2013.pdf Graphic file (type pdf)
-<use ./images/MARK-2013.pdf>
-Package pdftex.def Info: ./images/MARK-2013.pdf  used on input line 89.
-(pdftex.def)             Requested size: 108.11882pt x 109.54158pt.
+<./images/logo_name-1.jpg, id=37, 1107.38719pt x 222.07968pt>
+File: ./images/logo_name-1.jpg Graphic file (type jpg)
+<use ./images/logo_name-1.jpg>
+Package pdftex.def Info: ./images/logo_name-1.jpg  used on input line 85.
+(pdftex.def)             Requested size: 389.23254pt x 78.05774pt.
 <images/qr-code.png, id=39, 301.125pt x 432.61626pt>
 File: images/qr-code.png Graphic file (type png)
 <use images/qr-code.png>
-Package pdftex.def Info: images/qr-code.png  used on input line 89.
+Package pdftex.def Info: images/qr-code.png  used on input line 85.
 (pdftex.def)             Requested size: 70.58058pt x 101.40149pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/MARK-2013.pdf> <.
-/images/167582351_10223958451496533_4019638851113294173_n.jpg> <./images/gshs-t
-ex-society-logo.png> <./images/latexintro_screenshot_00001.png> <./images/bfstu
-dy_screenshot_00001.png> <./images/logo_name.jpg> <./images/164802182_102239584
-50736514_1499828934660729182_n.jpg> <./images/qr-code.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/167582351_1022395
+8451496533_4019638851113294173_n.jpg> <./images/gshs-tex-society-logo.png> <./i
+mages/latexintro_screenshot_00001.png> <./images/bfstudy_screenshot_00001.png> 
+<./images/165254569_10223958472697063_3079378730120024648_n.jpg> <./images/1648
+02182_10223958450736514_1499828934660729182_n.jpg> <./images/logo_name-1.jpg> <
+./images/qr-code.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9EBA2C2D463E35362F0A1F5F6FD3FAC8;133.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 21786 strings out of 480906
- 440273 string characters out of 5910772
- 807806 words of memory out of 5000000
- 36785 multiletter control sequences out of 15000+600000
- 631364 words of font info for 140 fonts, out of 8000000 for 9000
+ 21785 strings out of 480906
+ 440483 string characters out of 5910772
+ 807847 words of memory out of 5000000
+ 36784 multiletter control sequences out of 15000+600000
+ 628596 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,13n,74p,441b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,10n,74p,441b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/l
@@ -1347,10 +1351,10 @@ ype1/public/nanumtype1/nanumgtmd0.pfb></usr/share/texlive/texmf-dist/fonts/type
 ublic/nanumtype1/nanumgtmd3.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/nanumtype1/nanumgtmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 nanumtype1/nanumgtmd6.pfb>
-Output written on main.pdf (1 page, 1463061 bytes).
+Output written on main.pdf (1 page, 1986522 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
  6 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
